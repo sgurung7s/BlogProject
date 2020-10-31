@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Phone Blog Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="/js/dashboard.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+</head>
+
+<body>
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-2">
+    <a class="navbar-brand col-sm-4 col-md-2 mr-0" href="index.html">Sonita's Phone Blog</a>
+    <form action="#" method="POST" class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
+
+    <ul class="navbar-nav px-5">
+        <li class="nav-item text-nowrap">
+            <a class="nav-link" href="#" >Log out</a>
+        </li>
+    </ul>
+</nav>
+
+<div class="container-fluid">
+
+    <div class="row navbar-expand-md">
+        <nav class="col-md-3 col-lg-2 bg-light navbar-collapse collapse sidebar" id="sidenav">
+            <div class="sidebar-sticky flex-column w-100 mt-1">
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">
+                            <span data-feather="home"></span> Dashboard <span class="sr-only">(current)</span>
+                        </a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.apple.com" target="_blank">
+                            <span data-feather="file"></span>Apple</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.samsung.com" target="_blank">
+                            <span data-feather="file"></span>Samsung</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            <span data-feather="users"></span>Contact Us</a>
+                    </li>
+                </ul>
+                <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                    <span>Recent Posts</span>
+                    <a class="d-flex align-items-center text-muted" href="#">
+                        <span data-feather="plus-circle"></span>
+                    </a>
+                </h6>
+                <ul class="nav flex-column mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <span data-feather="file-text"></span> Latest Releases </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+            <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pb-2 mb-3 border-bottom">
+                <h1 class="h2">Blog Dashboard</h1>
+                <div class="btn-toolbar mb-2 mb-md-0">
+                    <div class="btn-group mr-2">
+                        <button class="btn btn-sm btn-outline-secondary">Share</button>
+                        <button class="btn btn-sm btn-outline-secondary">Export</button>
+                    </div>
+                    <button class="btn btn-sm btn-outline-secondary ">
+                        <span data-feather="printer"></span> Print
+                    </button>
+                </div>
+            </div>
+
+            <div class="card-group">
+                <div class="card">
+                    <img class="card-img-top" src="12.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone 12 Pro</h5>
+                        <p class="card-text">Latest Apple Phone</p>
+                        <a href="iphone12.html" class="btn btn-primary btn-lg">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="notes.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Note 20 Ultra</h5>
+                        <p class="card-text">Latest Samsung Phone </p>
+                        <a href="note20.html" class="btn btn-primary btn-lg">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="z.png" alt="Card image cap" >
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Z</h5>
+                        <p class="card-text">Flip-Flop Technology</p>
+                        <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="11.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">iPhone 11 Pro Max</h5>
+                        <p class="card-text">New Apple Phone</p>
+                        <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <p></p>
+            <h2>Recent Applicants</h2>
+            <div class="table-responsive">
+                <table class="table table-striped table-sm">
+                    <thead>
+                    <tr>
+                        <th>ID#</th>
+                        <th>Phone</th>
+                        <th>Sonita's Rating</th>
+                        <th>Cost ($) </th>
+                        <th>Buy</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1,001</td>
+                        <td>iPhone 11</td>
+                        <td>8</td>
+                        <td>1100</td>
+                        <td><a href="https://www.apple.com/shop/buy-iphone/iphone-11" target="_blank">Buy iPhone 11</a></td>
+                    </tr>
+                    <tr>
+                        <td>1,002</td>
+                        <td>Samsung Galaxy S20</td>
+                        <td>8.9</td>
+                        <td>1000</td>
+                        <td><a href="https://www.samsung.com/us/mobile/galaxy-s20-5g/" target="_blank">Buy Galaxy S20</a></td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">© 2020 Sonita's Phone Blog</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#">Privacy</a></li>
+            <li class="list-inline-item"><a href="#">Terms</a></li>
+            <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+    </footer>
+</div>
+<script>feather.replace() </script>
+</body>
+</html>
